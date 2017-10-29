@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="480.0" minWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button alignment="CENTER" layoutX="260.0" layoutY="187.0" minHeight="40.0" minWidth="120.0" mnemonicParsing="false" onMouseClicked="#new_Click" onMouseEntered="#new_Enter" onMouseExited="#new_Exit" text="New Game" textAlignment="CENTER" textFill="#ff4d4d">
+         <font>
+            <Font name="Lucida Console" size="18.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="260.0" layoutY="240.0" minHeight="40.0" minWidth="120.0" mnemonicParsing="false" onMouseClicked="#exit_Click" onMouseEntered="#exit_Enter" onMouseExited="#exit_Exit" text="Exit" textAlignment="CENTER" textFill="#ff4c4c">
+         <font>
+            <Font name="Lucida Console" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
