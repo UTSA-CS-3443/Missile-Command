@@ -1,14 +1,16 @@
 package controller;
 
-import javafx.scene.input.MouseEvent;
+import application.Main;
+import javafx.event.Event;
+import javafx.event.EventHandler;
 
-public class MainController implements javafx.event.EventHandler<MouseEvent>{
+public class MainController implements EventHandler{
 
-	@Override
-	public void handle(MouseEvent arg0) {
-		// TODO Auto-generated method stub
-
+	public MainController() {
+		super();
+	//	this.calc = new Calculator();
 	}
+
 	public void new_Clicked(){
 		System.out.print("new clicked");
 	}
@@ -27,4 +29,11 @@ public class MainController implements javafx.event.EventHandler<MouseEvent>{
 	public void exit_Exit(){
 		System.out.print("exit exited");
 	}
+
+	@Override
+	public void handle(Event arg0) {
+		// TODO Auto-generated method stub
+
+	}
+
 }

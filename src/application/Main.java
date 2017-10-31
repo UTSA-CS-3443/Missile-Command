@@ -19,9 +19,14 @@ public class Main extends Application {
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
+		this.stage = primaryStage;
 	}
 
 	public static void main(String[] args) {
 		launch(args);
+	}
+
+	public static Stage getStage() {
+		return stage;
 	}
 }
