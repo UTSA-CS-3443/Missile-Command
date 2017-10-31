@@ -1,5 +1,9 @@
 package model;
 
+/** implements city objects. Production and Research classes are children of this class but aren't needed for first part (the basic missle command)
+ *
+ * @author Gregory
+ */
 public class CityModel {
 
 	//variables currently are not needed, but will be added later

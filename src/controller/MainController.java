@@ -4,6 +4,11 @@ import application.Main;
 import javafx.event.Event;
 import javafx.event.EventHandler;
 
+/**Main menu basic implementation is New Game and Exit. Options for load, Save, Game Options, hi scores,
+ * Profile, etc. to be added later
+ *
+ * @author Gregory
+ */
 public class MainController implements EventHandler{
 
 	public MainController() {
