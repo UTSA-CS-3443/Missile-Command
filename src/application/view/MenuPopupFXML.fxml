@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="260.0" prefWidth="200.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MenuPopupController">
+   <children>
+      <Button id="resumeButton" fx:id="resumeButton" layoutX="30.0" layoutY="20.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="140.0" text="Resume" />
+      <Button id="saveButton" fx:id="saveButton" layoutX="30.0" layoutY="70.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="140.0" text="Save" />
+      <Button id="optionsButton" fx:id="optionButton" layoutX="30.0" layoutY="170.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="140.0" text="Options" />
+      <Button id="exitButton" fx:id="exitButton" layoutX="30.0" layoutY="220.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="140.0" text="Exit" />
+      <Button id="loadButton" fx:id="loadButton" layoutX="30.0" layoutY="120.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="140.0" text="Load" />
+   </children>
+</AnchorPane>

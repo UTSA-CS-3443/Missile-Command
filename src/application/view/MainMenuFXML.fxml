@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.MainMenuController">
+   <children>
+      <Canvas id="menuCanvas" fx:id="menuCanvas" height="480.0" mouseTransparent="true" width="640.0" />
+      <Button id="continueButton" fx:id="continueButton" layoutX="250.0" layoutY="230.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="140.0" text="Continue Game" />
+      <Button id="optionsButton" fx:id="optionButton" layoutX="250.0" layoutY="330.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="140.0" text="Options" />
+      <Button id="creditsButton" fx:id="creditsButton" layoutX="250.0" layoutY="380.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="140.0" text="Credits" />
+      <Button id="exitButton" fx:id="exitButton" layoutX="250.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="140.0" text="Exit" />
+      <Button id="loadButton" fx:id="loadButton" layoutX="250.0" layoutY="280.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="140.0" text="Load" />
+      <Button id="newGameButton" fx:id="newGameButton" layoutX="250.0" layoutY="180.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="140.0" text="New Game" />
+   </children>
+</AnchorPane>

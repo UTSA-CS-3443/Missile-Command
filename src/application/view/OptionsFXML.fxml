@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="optionBack" fx:id="optionBack" prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.GameOptionController">
+   <children>
+      <Button id="backButton" fx:id="backButton" layoutX="50.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="100.0" text="Back" />
+      <TabPane id="optionTabs" fx:id="optionTabs" layoutX="20.0" layoutY="24.0" onMouseClicked="#on_Click" prefHeight="380.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" tabMinHeight="20.0" tabMinWidth="100.0">
+        <tabs>
+            <Tab id="optionTab" fx:id="optionTab" text="Game Options">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+          <Tab id="controlTab" fx:id="controlTab" text="Controls">
+               <content>
+                  <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+               </content>
+          </Tab>
+          <Tab id="graphicsTab" fx:id="graphicsTab" text="Graphics">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+            </content>
+          </Tab>
+            <Tab id="audioTab" fx:id="audioTab" text="Audio">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" />
+              </content>
+            </Tab>
+        </tabs>
+      </TabPane>
+      <Button id="defaultButton" fx:id="defaultButton" layoutX="320.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="120.0" text="Restore Defaults" />
+      <Button id="applyButton" fx:id="applyButton" layoutX="490.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="20.0" prefWidth="100.0" text="Apply" />
+   </children>
+</AnchorPane>

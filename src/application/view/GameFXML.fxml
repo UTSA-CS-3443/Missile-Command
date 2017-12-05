@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.GameController">
+   <children>
+      <Pane id="gamePanelPane" fx:id="gamePanelPane" layoutY="380.0" prefHeight="100.0" prefWidth="640.0">
+         <children>
+            <Button id="popupMenuButton" fx:id="popupMenuButton" layoutX="28.0" layoutY="38.0" mnemonicParsing="false" onMouseClicked="#on_Click" text="Menu" />
+         </children></Pane>
+      <Pane id="gamePane" fx:id="gamePane" prefHeight="380.0" prefWidth="640.0">
+         <children>
+            <Canvas id="gameCanvas" fx:id="gameCanvas" focusTraversable="true" height="380.0" onMouseClicked="#handle" onMouseEntered="#on_Enter" width="640.0" />
+            <Label id="scoreLabel" fx:id="scoreLabel" layoutX="400.0" layoutY="30.0" mouseTransparent="true" prefHeight="36.0" prefWidth="200.0" text="Label">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

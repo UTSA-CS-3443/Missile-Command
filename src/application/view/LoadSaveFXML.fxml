@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="480.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.LoadSaveController">
+   <children>
+      <ListView id="gameList" fx:id="gameList" layoutX="80.0" layoutY="50.0" prefHeight="350.0" prefWidth="480.0" />
+      <Button id="backButton" fx:id="backButton" layoutX="40.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="24.0" prefWidth="80.0" text="Back" />
+      <Button id="saveButton" fx:id="saveButton" layoutX="420.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="24.0" prefWidth="80.0" text="Save" />
+      <Button id="loadButton" fx:id="loadButton" layoutX="320.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="24.0" prefWidth="80.0" text="Load" />
+      <Button id="deleteButton" fx:id="deleteButton" layoutX="520.0" layoutY="430.0" mnemonicParsing="false" onMouseClicked="#on_Click" prefHeight="24.0" prefWidth="80.0" text="Delete" />
+   </children>
+</AnchorPane>
